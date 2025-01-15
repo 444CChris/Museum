@@ -24,3 +24,8 @@ body{
 #content h2{
 
 }
+
+.silhouette-image{
+    background-color: #b8ffbe;
+    position: relative;
+}
