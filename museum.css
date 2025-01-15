@@ -4,28 +4,35 @@ body{
     
 }
 
-#title h1{
+.title h1{
     font-size: 3em;
 }
 
-#content{
+.text {
     background-color: white;
-    opacity: 0.3;
     text-align: center;
     align-content: center;
     margin: 20px 25% 20px 25%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#content p{
+.text p{
     margin: 20px 30% 20px 30%;
 }
 
-#content h2{
+.text h2{
 
 }
 
-.silhouette-image{
-    background-color: #b8ffbe;
+#silhouette-image{
+    color: #b8ffbe;
     position: relative;
+    top:0;
+    left:0;
+}
+
+#base-image{
+    position:absolute;
+    top:-0.7em;
+    left:-0.7em;
 }
