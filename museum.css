@@ -4,6 +4,7 @@ body{
     
 }
 
+
 .title h1{
     font-size: 3em;
 }
@@ -27,12 +28,24 @@ body{
 #silhouette-image{
     color: #b8ffbe;
     position: relative;
-    top:0;
-    left:0;
+    top:49%;
+    left:40%;
 }
 
 #base-image{
     position:absolute;
-    top:-0.7em;
-    left:-0.7em;
+    top:39%;
+    left:43%;
+}
+
+#silhouette{
+    filter: invert(88%) sepia(15%) saturate(759%) hue-rotate(69deg) brightness(104%) contrast(103%);
+}
+
+.background{
+    height:100%;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
 }
